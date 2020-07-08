@@ -117,3 +117,6 @@ venv.bak/
 # js
 node_modules/
 .next/
+
+.history
+staticfiles
