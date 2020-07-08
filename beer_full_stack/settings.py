@@ -150,14 +150,14 @@ STATICFILES_DIRS = [
 #####################
 
 
-# CORS_ORIGIN_WHITELIST = [
-#     "http://localhost:3000",
-#     "https://snacks-next.vercel.app"
-# ]
+CORS_ORIGIN_WHITELIST = [
+    "http://localhost:3000",
+    "https://beer-full-stack.vercel.app"
+]
 
-# CORS_ORIGIN_REGEX_WHITELIST = [
-#     r"^https://snacks-next.\w+\.vercel.app$",
-# ]
+CORS_ORIGIN_REGEX_WHITELIST = [
+    r"^https://beer-full-stack.\w+\.vercel.app$",
+]
 
 # # production
 # if ENVIRONMENT == 'production':
