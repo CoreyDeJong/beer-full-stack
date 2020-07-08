@@ -4,8 +4,5 @@ build:
       web: Dockerfile
 release:
     image: web
-    command:
-        - mkdir -p static
-        - python manage.py collectstatic --noinput
 run:
     web: gunicorn beer_full_stack.wsgi

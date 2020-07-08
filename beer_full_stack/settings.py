@@ -146,6 +146,10 @@ STATICFILES_DIRS = [
     STATIC_DIR,
 ]
 
+
+#####################
+
+
 # CORS_ORIGIN_WHITELIST = [
 #     "http://localhost:3000",
 #     "https://snacks-next.vercel.app"
